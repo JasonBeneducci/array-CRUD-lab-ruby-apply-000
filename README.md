@@ -76,3 +76,6 @@ This method takes in one argument, the array from which we want to retrieve an e
 The last element of an array is considered to be stored at an index of `-1`.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/array-CRUD-lab' title='Array Lab: Create, Retrieve, Update, Delete'>Array Lab: Create, Retrieve, Update, Delete</a> on Learn.co and start learning to code for free.</p>
+def create_an_empty_array
+  []
+end 
