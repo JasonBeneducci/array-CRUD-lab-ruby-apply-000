@@ -1,37 +1,5 @@
 
 
-## Objectives
-
-1. Create a new array that contains data as well as a new array that is empty.
-2. Add an element to the end of an array.
-3. Add an element to the front of an array.
-4. Remove an element from the front of an array.
-5. Remove an element from the end of an array.
-6. Retrieve data from a specific array index.
-
-## Instructions
-
-In this lab, we will be coding the solutions for each of the above tasks in the body of a method. In `lib/array_crud.rb` we've defined a series of methods for you, each of which is responsible for one of the tasks above. Your job is to write the code in the body of each method to get the test passing.
-
-
-
-
-Open up `lib/array_crud.rb` and check out the `#create_an_empty_array` method. It's empty! Let's write the code that will get the test passing.
-
-We'll use the literal constructor to make a new array with nothing in it:
-
-```ruby
-def create_an_empty_array
-  []
-end
-```
-
-Run the test suite again and we should be passing that first test.
-
-### `#create_an_array`
-
-This method should use the literal constructor to create a new array, just like we did above. This time, however, create an array that contains four elements. The four elements can be any elements of your choosing, as long as there are only four of them.
-
 ### `#add_element_to_end_of_array`
 
 This method takes in two arguments, an array and the element we want to add to it. Use the `<<` (shovel) method or the `#push` method to add that element to the end of the new array.
