@@ -1,4 +1,4 @@
-def create_an_empty_array = []
+def create_an_empty_array = [Jason, Joe, Jared, Bonnie]
 end
 
 def create_an_array
